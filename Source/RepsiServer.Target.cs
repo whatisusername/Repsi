@@ -7,5 +7,6 @@ public class RepsiServerTarget : TargetRules
 		Type = TargetType.Server;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "RepsiCore" } );
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
 	}
 }
