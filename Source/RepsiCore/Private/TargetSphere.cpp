@@ -2,7 +2,7 @@
 
 #include "Net/UnrealNetwork.h"
 #include "UObject/ConstructorHelpers.h"
-#include "Engine/EngineTypes.h"
+#include "Engine/DamageEvents.h"
 #include "Engine/StaticMesh.h"
 #include "Materials/MaterialInterface.h"
 #include "Components/SceneComponent.h"
