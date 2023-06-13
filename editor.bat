@@ -1,7 +1,7 @@
 @echo off
 
-call %~dp0\vars.bat
+call %~dp0vars.bat
 
-set EDITOR_CMD="%UE4EDITOR_EXE%" "%UPROJECT_PATH%" %*
+set EDITOR_CMD="%UE_EDITOR_EXE%" "%UPROJECT_PATH%" %*
 echo %EDITOR_CMD%
 start "" %EDITOR_CMD%
