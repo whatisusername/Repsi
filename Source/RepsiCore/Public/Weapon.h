@@ -12,11 +12,11 @@ struct FWeaponFirePacket
 
 	/** Game time on the server when this fire event occurred. */
 	UPROPERTY()
-	float ServerFireTime;
+	float ServerFireTime = 0.0f;
 
 	/** Whether the weapon hit an actor and caused damage. */
 	UPROPERTY()
-	bool bCausedDamage;
+	bool bCausedDamage = false;
 
 	/** World-space location where the blocking hit occurred, if any. */
 	UPROPERTY()
